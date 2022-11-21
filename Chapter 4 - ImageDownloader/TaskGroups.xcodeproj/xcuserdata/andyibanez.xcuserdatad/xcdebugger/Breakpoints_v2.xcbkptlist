@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D1793442-BA1F-41E0-BFA9-4C4001A94265"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9743A02-C018-43D5-8B8F-FA19A8DD3F4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaskGroups/ContentViewViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "downloadImages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9743A02-C018-43D5-8B8F-FA19A8DD3F4E - 13cb36f5e7c24110"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TaskGroups.ContentViewViewModel.downloadImages() -&gt; ()"
+                  moduleName = "TaskGroups"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyibanez/Desktop/Book%20Projects%20(SwiftUI)/TaskGroups/TaskGroups/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "A9743A02-C018-43D5-8B8F-FA19A8DD3F4E - bab77632104163f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async -&gt; () in TaskGroups.ContentViewViewModel.downloadImages() -&gt; ()"
+                  moduleName = "TaskGroups"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyibanez/Desktop/Book%20Projects%20(SwiftUI)/TaskGroups/TaskGroups/ContentViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

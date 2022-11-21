@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContactPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGg-a2-7SD">
+                                <rect key="frame" x="79" y="434" width="256.5" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAe-KC-ZyU">
+                                <rect key="frame" x="78.5" y="488.5" width="257" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="XLO-4t-0qn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Select Contact"/>
+                                <connections>
+                                    <action selector="selectContactTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nrs-vP-p0q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfo-on-dTs">
+                                <rect key="frame" x="78.5" y="555" width="257" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ewi-bX-aH6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cAe-KC-ZyU" firstAttribute="width" secondItem="uGg-a2-7SD" secondAttribute="width" multiplier="1.00195" id="0yM-9t-hAM"/>
+                            <constraint firstItem="uGg-a2-7SD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="D0R-QM-FRd"/>
+                            <constraint firstItem="uGg-a2-7SD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="E3r-ax-xkp"/>
+                            <constraint firstItem="gfo-on-dTs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O6d-Bl-gVB"/>
+                            <constraint firstItem="gfo-on-dTs" firstAttribute="width" secondItem="cAe-KC-ZyU" secondAttribute="width" id="gXQ-ga-kot"/>
+                            <constraint firstItem="gfo-on-dTs" firstAttribute="top" secondItem="cAe-KC-ZyU" secondAttribute="bottom" constant="35.5" id="gyt-xv-KfV"/>
+                            <constraint firstItem="cAe-KC-ZyU" firstAttribute="top" secondItem="uGg-a2-7SD" secondAttribute="bottom" constant="16" id="p2w-0L-nxr"/>
+                            <constraint firstItem="cAe-KC-ZyU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sii-nD-9ff"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectedContactLabel" destination="gfo-on-dTs" id="wd2-UP-raZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

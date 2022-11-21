@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A584071A-2102-4FED-A1F4-059DC6C4CB7D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB43D9DE-8F6E-4540-902A-06360E158193"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/UserProfileView/UserProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "authenticateAndFetchProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB43D9DE-8F6E-4540-902A-06360E158193 - 9322aac5960efd63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter_2___Social_Media_App.UserProfileViewModel.authenticateAndFetchProfile() async -&gt; ()"
+                  moduleName = "Chapter 2 - Social Media App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyibanez/Desktop/Book%20Projects%20(SwiftUI)/Chapter%202%20-%20Social%20Media%20App%20(Async-Await)/Shared/Views/UserProfileView/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "DB43D9DE-8F6E-4540-902A-06360E158193 - 466330f748231c7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for Chapter_2___Social_Media_App.UserProfileViewModel.authenticateAndFetchProfile() async -&gt; ()"
+                  moduleName = "Chapter 2 - Social Media App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyibanez/Desktop/Book%20Projects%20(SwiftUI)/Chapter%202%20-%20Social%20Media%20App%20(Async-Await)/Shared/Views/UserProfileView/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "DB43D9DE-8F6E-4540-902A-06360E158193 - e96a311514e6d7fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for Chapter_2___Social_Media_App.UserProfileViewModel.authenticateAndFetchProfile() async -&gt; ()"
+                  moduleName = "Chapter 2 - Social Media App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andyibanez/Desktop/Book%20Projects%20(SwiftUI)/Chapter%202%20-%20Social%20Media%20App%20(Async-Await)/Shared/Views/UserProfileView/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF5E775A-B20E-4B0A-A71E-5DDF084C3815"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/UserProfileView/UserProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "authenticateAndFetchProfile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
